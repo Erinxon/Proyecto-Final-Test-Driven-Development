@@ -1,0 +1,5 @@
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe\obj\Debug\netcoreapp3.1\MaquinaCafe.csproj.AssemblyReference.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe\obj\Debug\netcoreapp3.1\MaquinaCafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe\obj\Debug\netcoreapp3.1\MaquinaCafe.AssemblyInfoInputs.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe\obj\Debug\netcoreapp3.1\MaquinaCafe.AssemblyInfo.cs
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe\obj\Debug\netcoreapp3.1\MaquinaCafe.csproj.CoreCompileInputs.cache

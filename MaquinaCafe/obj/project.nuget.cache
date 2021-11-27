@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "66it7xxXnMFKUTnydC51CpYxAt38URBqIjUg6ECsN0SSWaOD1fiCHsSbepHnU8qa8uTfFvBoJRaFHqJsxKoFdg==",
+  "dgSpecHash": "BpxHzDHnoNdONpiRmfM2Chvw2sNEKC0UCdwUfyLrr1S49flBonrkUBvLE2VS2A3wZtZyCMZ3FZTaVMiZLHusSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Erinxon\\Desktop\\ITLA\\Septimo Cuatrimestre\\Administración de Proyectos de Software\\Proyecto final\\MaquinaCafe\\MaquinaCafe.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Erinxon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }

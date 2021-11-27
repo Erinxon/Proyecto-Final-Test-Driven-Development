@@ -17,6 +17,7 @@ namespace MaquinaCafe.UI
         private MaquinaDeCafe maquinaCafe;
 
         private Vaso vasoSelecionado = null;
+        private int cantidadVasos = 0;
         private int cucharadasDeAzucar = 0;
 
         public MenuMaquina()
@@ -40,10 +41,10 @@ namespace MaquinaCafe.UI
             int opcion = 0;
             do
             {
-                Console.WriteLine("1) Seleccionar el tamaño de vaso de café.");
-                Console.WriteLine("2) Seleccionar las cucharadas de azúcar.");
-                Console.WriteLine("3) Recoger vaso.");
-                Console.WriteLine("4) Salir");
+                Print("1) Seleccionar el tamaño de vaso de café.");
+                Print("2) Seleccionar las cucharadas de azúcar.");
+                Print("3) Recoger vaso.");
+                Print("4) Salir");
                 bool isNumber = int.TryParse(Console.ReadLine(), out opcion);
                 if (isNumber)
                 {
@@ -61,77 +62,89 @@ namespace MaquinaCafe.UI
                         case 4:
                             break;
                         default:
-                            Console.WriteLine("Opción inválida");
+                            Print("Opción inválida");
                             break;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Por favor intriduzca un numero valido");
+                    Print("Por favor intriduzca un numero valido");
                 }
             } while (opcion != 4);
         }
 
         private void SeleccionarTipoVaso()
         {
-            Console.WriteLine("  1) Vaso Pequeño -> 3 Oz de cafe");
-            Console.WriteLine("  2) Vaso Mediano -> 5 Oz de cafe");
-            Console.WriteLine("  3) Vaso Grande -> 7 Oz de cafe");
-            bool isNumber = int.TryParse(Console.ReadLine(), out int opcionTipoVaso);
-            if (isNumber)
+            Print("  1) Vaso Pequeño -> 3 Oz de cafe");
+            Print("  2) Vaso Mediano -> 5 Oz de cafe");
+            Print("  3) Vaso Grande -> 7 Oz de cafe");
+            int opcionTipoVaso = Input("");
+            switch (opcionTipoVaso)
             {
-                switch (opcionTipoVaso)
-                {
-                    case 1:
-                        vasoSelecionado = maquinaCafe.GetTipoDeVaso("pequeno");
-                        break;
-                    case 2:
-                        vasoSelecionado = maquinaCafe.GetTipoDeVaso("mediano");
-                        break;
-                    case 3:
-                        vasoSelecionado = maquinaCafe.GetTipoDeVaso("grande");
-                        break;
-                    default:
-                        Console.WriteLine("Opción inválida");
-                        break;
-                }
+                case 1:
+                    vasoSelecionado = maquinaCafe.GetTipoDeVaso("pequeno");
+                    SeleccionarCantidadDeVasos();
+                    break;
+                case 2:
+                    vasoSelecionado = maquinaCafe.GetTipoDeVaso("mediano");
+                    SeleccionarCantidadDeVasos();
+                    break;
+                case 3:
+                    vasoSelecionado = maquinaCafe.GetTipoDeVaso("grande");
+                    SeleccionarCantidadDeVasos();
+                    break;
+                default:
+                    Print("Opción inválida");
+                    break;
             }
-            else
-            {
-                Console.WriteLine("Por favor intriduzca un numero valido");
-                SeleccionarTipoVaso();
-            }
+        }
+
+        private void SeleccionarCantidadDeVasos()
+        {
+            this.cantidadVasos = Input("Escriba la cantidad de vasos");
         }
 
         private void SeleccionarCantidadCucharadasAzucar()
         {
-            Console.WriteLine("Escriba las cucharadas de azucar");
-            bool isNumber = int.TryParse(Console.ReadLine(), out cucharadasDeAzucar);
-            if (!isNumber)
-            {
-                Console.WriteLine("Por favor intriduzca un numero valido");
-                SeleccionarCantidadCucharadasAzucar();
-            }
+            this.cucharadasDeAzucar = Input("Escriba las cucharadas de azucar");
         }
 
         private void RecogerVaso()
         {
-            if (vasoSelecionado is not null && cucharadasDeAzucar > 0)
+            if (vasoSelecionado is not null && cucharadasDeAzucar > 0 && cantidadVasos > 0)
             {
-                string resultado = maquinaCafe.GetVasoDeCafe(vasoSelecionado, 1, cucharadasDeAzucar);
-                Console.WriteLine(resultado);
-                Limpiar();
+                string resultado = maquinaCafe.GetVasoDeCafe(vasoSelecionado, cantidadVasos, cucharadasDeAzucar);
+                Print(resultado);
+                Resetear();
             }
             else
             {
-                Console.WriteLine("Por favor debe seleccionar el tipo de vaso y la cantidad de cucharadas de azucar");
+                Print("Por favor asegurese de haber selecionado el tipo de vaso, la cantidad de vasos y las cucharadas de azucar");
             }
         }
 
-        private void Limpiar()
+        private void Resetear()
         {
             this.vasoSelecionado = null;
             this.cucharadasDeAzucar = 0;
+            this.cantidadVasos = 0;
+        }
+
+        private void Print(string text)
+        {
+            Console.WriteLine(text);
+        }
+
+        private int Input(string text)
+        {
+            Print(text);
+            bool isNumber = int.TryParse(Console.ReadLine(), out int numero);
+            if (!isNumber)
+            {
+                Print("Por favor ingrese un número valido");
+                return Input(text);
+            }
+            return numero;
         }
     }
 }
