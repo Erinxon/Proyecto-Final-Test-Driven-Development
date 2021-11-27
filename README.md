@@ -4,4 +4,4 @@
 1) NET CORE 5 (C#)
 
 # Test
-![N|Solid](https://raw.githubusercontent.com/Erinxon/Proyecto-Final-Test-Driven-Development/master/Tests.png)
+![N|Solid](https://raw.githubusercontent.com/Erinxon/Proyecto-Final-Test-Driven-Development/master/Test.png)
