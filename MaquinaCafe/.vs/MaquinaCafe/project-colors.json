@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "63237f58-dc52-4f85-92ef-f8aa0c99a2b6": {
+      "ProjectGuid": "63237f58-dc52-4f85-92ef-f8aa0c99a2b6",
+      "DisplayName": "MaquinaCafe.Test",
+      "ColorIndex": 0
+    },
+    "79a9c727-abea-4d6a-96c9-84b578eff779": {
+      "ProjectGuid": "79a9c727-abea-4d6a-96c9-84b578eff779",
+      "DisplayName": "MaquinaCafe.UI",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

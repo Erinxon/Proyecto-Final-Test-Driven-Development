@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MaquinaCafe.UI/1.0.0": {
+        "runtime": {
+          "MaquinaCafe.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaquinaCafe.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

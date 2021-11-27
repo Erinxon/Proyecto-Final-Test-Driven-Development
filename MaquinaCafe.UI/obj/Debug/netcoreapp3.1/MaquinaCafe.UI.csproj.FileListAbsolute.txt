@@ -1,0 +1,14 @@
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.exe
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.deps.json
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.runtimeconfig.json
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.runtimeconfig.dev.json
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.dll
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\bin\Debug\netcoreapp3.1\MaquinaCafe.UI.pdb
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.AssemblyInfoInputs.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.AssemblyInfo.cs
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.csproj.CoreCompileInputs.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.dll
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.pdb
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.genruntimeconfig.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.csproj.AssemblyReference.cache
+C:\Users\Erinxon\Desktop\ITLA\Septimo Cuatrimestre\Administración de Proyectos de Software\Proyecto final\MaquinaCafe.UI\obj\Debug\netcoreapp3.1\MaquinaCafe.UI.GeneratedMSBuildEditorConfig.editorconfig
