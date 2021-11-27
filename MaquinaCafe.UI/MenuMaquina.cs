@@ -45,30 +45,23 @@ namespace MaquinaCafe.UI
                 Print("2) Seleccionar las cucharadas de azúcar.");
                 Print("3) Recoger vaso.");
                 Print("4) Salir");
-                bool isNumber = int.TryParse(Console.ReadLine(), out opcion);
-                if (isNumber)
+                opcion = Input("");
+                switch (opcion)
                 {
-                    switch (opcion)
-                    {
-                        case 1:
-                            this.SeleccionarTipoVaso();
-                            break;
-                        case 2:
-                            this.SeleccionarCantidadCucharadasAzucar();
-                            break;
-                        case 3:
-                            this.RecogerVaso();
-                            break;
-                        case 4:
-                            break;
-                        default:
-                            Print("Opción inválida");
-                            break;
-                    }
-                }
-                else
-                {
-                    Print("Por favor intriduzca un numero valido");
+                    case 1:
+                        this.SeleccionarTipoVaso();
+                        break;
+                    case 2:
+                        this.SeleccionarCantidadCucharadasAzucar();
+                        break;
+                    case 3:
+                        this.RecogerVaso();
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        Print("Opción inválida");
+                        break;
                 }
             } while (opcion != 4);
         }
